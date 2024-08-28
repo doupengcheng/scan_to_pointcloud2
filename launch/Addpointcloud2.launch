@@ -1,0 +1,5 @@
+<launch>
+  <node name="frontlaser2PointCloud"          pkg="scan_to_pointcloud2"  type="lidar1_pointcloud2.py"/>
+  <node name="backlaserPointCloud"          pkg="scan_to_pointcloud2"  type="lidar2_pointcloud2.py"/>
+  <node name="Pointcloud2"          pkg="scan_to_pointcloud2"  type="Pointcloud2" output="screen"/>
+</launch>
